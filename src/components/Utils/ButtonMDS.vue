@@ -10,7 +10,6 @@ defineProps<{
 </script>
 <style scoped>
 button{
-    font-family: 'Anek Bangla';
     font-size: 14.35px;
 }
 </style>

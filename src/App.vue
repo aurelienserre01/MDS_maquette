@@ -4,6 +4,7 @@ import HomeCampus from './components/views/HomeCampus.vue';
 import NavBar from './components/Utils/NavBar.vue';
 import HomeDomains from './components/views/HomeDomains.vue';
 import HomeBlog from './components/views/HomeBlog.vue';
+import HomeAlumnis from './components/views/HomeAlumnis.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import HomeBlog from './components/views/HomeBlog.vue';
     <HomeCampus />
     <HomeDomains />
     <HomeBlog />
+    <HomeAlumnis />
 </template>
 
 <style scoped>

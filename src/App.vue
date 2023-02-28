@@ -5,6 +5,7 @@ import NavBar from './components/Utils/NavBar.vue';
 import HomeDomains from './components/views/HomeDomains.vue';
 import HomeBlog from './components/views/HomeBlog.vue';
 import HomeAlumnis from './components/views/HomeAlumnis.vue';
+import HomeContact from './components/views/HomeContact.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import HomeAlumnis from './components/views/HomeAlumnis.vue';
     <HomeDomains />
     <HomeBlog />
     <HomeAlumnis />
+    <HomeContact />
 </template>
 
 <style scoped>

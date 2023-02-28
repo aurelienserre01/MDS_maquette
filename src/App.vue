@@ -3,6 +3,7 @@ import HomeHero from './components/views/HomeHero.vue';
 import HomeCampus from './components/views/HomeCampus.vue';
 import NavBar from './components/Utils/NavBar.vue';
 import HomeDomains from './components/views/HomeDomains.vue';
+import HomeBlog from './components/views/HomeBlog.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import HomeDomains from './components/views/HomeDomains.vue';
     <HomeHero />
     <HomeCampus />
     <HomeDomains />
+    <HomeBlog />
 </template>
 
 <style scoped>

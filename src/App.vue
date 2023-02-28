@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import NavBar from './components/NavBar.vue';
+import HomeHero from './components/views/HomeHero.vue';
+import HomeCampus from './components/views/HomeCampus.vue';
+import NavBar from './components/Utils/NavBar.vue';
 </script>
 
 <template>
-  <div class="absolute">
     <NavBar />
-  </div>
+    <HomeHero />
+    <HomeCampus />
 </template>
 
 <style scoped>
+body{
+  background-color: #F9FBFC;
+}
 </style>

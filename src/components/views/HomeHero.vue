@@ -5,19 +5,19 @@
             <ButtonMDS message="Appelez-nous" />
         </div>
         <div class="flex justify-evenly w-[80%] mr-auto ml-auto">
-            <!-- <img :src="rectangle1" alt="">
+            <img :src="rectangle1" alt="">
             <img :src="rectangle2" class="mt-36" alt="">
             <img :src="rectangle3" class="mt-36" alt="">
-            <img :src="rectangle4" alt="">             -->
+            <img :src="rectangle4" alt="">            
         </div>
     </div>
 </template>
 <script setup lang="ts">
 import ButtonMDS from '../Utils/ButtonMDS.vue';
-// import rectangle1 from '@/assets/images/profiles/rectangle1.svg'
-// import rectangle2 from '@/assets/images/profiles/rectangle2.svg'
-// import rectangle3 from '@/assets/images/profiles/rectangle3.svg'
-// import rectangle4 from '@/assets/images/profiles/rectangle4.svg'
+import rectangle1 from '@/assets/images/profiles/Rectangle1.svg'
+import rectangle2 from '@/assets/images/profiles/Rectangle2.svg'
+import rectangle3 from '@/assets/images/profiles/Rectangle3.svg'
+import rectangle4 from '@/assets/images/profiles/Rectangle4.svg'
 
 </script>
 <style scoped>

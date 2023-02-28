@@ -1,25 +1,26 @@
 <script setup lang="ts">
 import ButtonMDS from '../Utils/ButtonMDS.vue';
 import CardDomains from '../Utils/CardDomains.vue';
+import Vector from '@/assets/images/icons/Vector.svg'
 const contents = [{
     title: 'Webmarketing',
     content: 'Classée la 2ème meilleure école de France dans ce domaine, le marketing digital est la spécialité de MyDigitalSchool',
-    icon: 'src\\assets\\images\\icons\\Vector.svg'
+    icon: Vector
 },
 {
     title: 'UI & UX Design',
     content: 'Classée la 2ème meilleure école de France dans ce domaine, le marketing digital est la spécialité de MyDigitalSchool',
-    icon: 'src\\assets\\images\\icons\\Vector.svg'
+    icon: Vector
 },
 {
     title: 'Programmation',
     content: 'Classée la 2ème meilleure école de France dans ce domaine, le marketing digital est la spécialité de MyDigitalSchool',
-    icon: 'src\\assets\\images\\icons\\Vector.svg'
+    icon: Vector
 },
 {
     title: 'Communication',
     content: 'Classée la 2ème meilleure école de France dans ce domaine, le marketing digital est la spécialité de MyDigitalSchool',
-    icon: 'src\\assets\\images\\icons\\Vector.svg'
+    icon: Vector
 }
 ]
 </script>

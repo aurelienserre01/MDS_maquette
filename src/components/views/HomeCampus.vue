@@ -6,7 +6,11 @@
 </template>
 <script setup lang="ts">
 import LogoAndTitle from '../Utils/LogoAndTitle.vue';
-const srcs: string[] = ["src\\assets\\images\\villes\\lyon.png",'src\\assets\\images\\villes\\paris.png','src\\assets\\images\\villes\\annecy.png','src\\assets\\images\\villes\\nantes.png']
+import lyon from '@/assets/images/villes/lyon.png'
+import paris from '@/assets/images/villes/paris.png'
+import annecy from '@/assets/images/villes/annecy.png'
+import nantes from '@/assets/images/villes/nantes.png'
+const srcs: string[] = [lyon,paris,annecy,nantes]
 </script>
 <style scoped>
 h3{
